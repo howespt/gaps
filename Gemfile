@@ -6,6 +6,7 @@ ruby '2.3.4'
  eval(File.read(path), binding, path); break true
 end || source('https://rubygems.org/')
 
+gem 'json'
 gem 'thread'
 gem 'puma'
 gem 'rack-flash3'
